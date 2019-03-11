@@ -3,6 +3,8 @@
 The Spark Scala template image serves as a base image to build your own Scala
 application to run on a Spark cluster.
 
+Version 2.4.0-hadoop2.7
+
 ## Package your application using sbt
 
 You can build and launch your Scala application on a Spark cluster by extending
@@ -49,7 +51,7 @@ the `/template.sh` script at the end.
 #### Example Dockerfile
 
 ```
-FROM adcontor7/spark-scala-template:1.0-hadoop2.7
+FROM adcontor7/spark-scala-template
 
 MAINTAINER Adrián Contreras <adcontor7@gmail.com>
 
